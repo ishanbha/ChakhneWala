@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "697856901747",
+    "firebase_url": "https://chakhnewala-59968.firebaseio.com",
+    "project_id": "chakhnewala-59968",
+    "storage_bucket": "chakhnewala-59968.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697856901747:android:90f3fffe48822706",
+        "android_client_info": {
+          "package_name": "dev.ishan.chakhnewala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697856901747-ocj3erao300op2bntck8bjie71bphof1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.ishan.chakhnewala",
+            "certificate_hash": "90a80c3c927892b0403d4753a5ce86e8ad644f96"
+          }
+        },
+        {
+          "client_id": "697856901747-ap82frkv81tl32i2iug6gm93gebfatnh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3Qf2UUS7NiqTpyNHSmEpI2bzxzwDud9I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697856901747-ap82frkv81tl32i2iug6gm93gebfatnh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
