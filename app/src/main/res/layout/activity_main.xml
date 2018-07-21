@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="#40FFFFFF"
-    android:backgroundTintMode="src_over"
+    android:backgroundTint="#90575a60"
+    android:backgroundTintMode="src_atop"
     android:background="@drawable/background2"
     tools:context=".MainActivity">
 
@@ -13,12 +13,12 @@
         android:layout_centerInParent="true"
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content" >
 
         <ImageView
             android:layout_width="400dp"
             android:layout_height="200dp"
-            android:src="@drawable/logo"/>
+            android:src="@drawable/logo1" />
     </LinearLayout>
 
     <LinearLayout

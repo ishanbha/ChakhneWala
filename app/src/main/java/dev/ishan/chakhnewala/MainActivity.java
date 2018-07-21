@@ -1,5 +1,6 @@
 package dev.ishan.chakhnewala;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -17,17 +18,27 @@ public class MainActivity extends AppCompatActivity {
         btnRegister = (Button)findViewById(R.id.btnRegister);
         btnSignIn = (Button)findViewById(R.id.btnSignIn);
 
-        btnRegister.setOnClickListener(new View.OnClickListener() {
+        btnSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
             }
         });
 
+        btnRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent register = new Intent(MainActivity.this, Register.class);
+                startActivity(register);
+            }
+        });
+
+
         btnSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent signIn = new Intent(MainActivity.this, SignIn.class);
+                startActivity(signIn);
             }
         });
 
