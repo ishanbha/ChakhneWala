@@ -6,4 +6,7 @@
 
     <color name="btnRegister">#e46833</color>
     <color name="btnSignIn">#1d9b71</color>
+
+    <color name="overlayBackground">#7f333639</color>
+    <color name="overlayActionBar">#0e0d0e</color>
 </resources>

@@ -25,7 +25,7 @@ public class Register extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.register);
+        setContentView(R.layout.activity_register);
 
         edtPhone = (MaterialEditText)findViewById(R.id.edtPhone);
         edtName = (MaterialEditText)findViewById(R.id.edtName);
